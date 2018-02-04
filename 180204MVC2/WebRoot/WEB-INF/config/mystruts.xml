@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 自定义框架的配置文件
+		其中的一个action标签，用于配置Action类的相关的信息
+		path为客户端的请求路径
+		type为对应的Action类
+		name为对应的实体类对象
+	 -->
+	 <actions>
+	     <action path="reg.do" type="com.cshr.action.RegAction" name="com.cshr.entity.Student"></action> 
+	 </actions>
