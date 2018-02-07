@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 自定义框架的配置文件
+		其中的一个action标签，用于配置Action类的相关的信息
+		path为客户端的请求路径
+		type为对应的Action类
+		name为对应的实体类对象
+	 -->
+<actions>
+   <action path="addUser.action" type="com.cshr.action.AddUserAction" name="com.cshr.entity.UserInfo">
+   </action>
+   <action path="showUser.action" type="com.cshr.action.ShowUserAction" name="com.cshr.entity.UserInfo">
+   </action>
+   <action path="selectOneUser.action" type="com.cshr.action.SelectOneAction" name="com.cshr.entity.UserInfo">
+   </action>
+   <action path="updateUser.action" type="com.cshr.action.UpdateUserAction" name="com.cshr.entity.UserInfo">
+   </action>
+   <action path="deleteUser.action" type="com.cshr.action.DeleteUserAction" name="com.cshr.entity.UserInfo">
+   </action>
+</actions>
